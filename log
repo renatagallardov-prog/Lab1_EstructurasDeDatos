@@ -1,0 +1,416 @@
+Fri Mar 13 05:52:35 PM UTC 2026: 
+ tests:  0|5
+total_score: 0/70
+882ebe4
+Fri Mar 20 06:02:27 PM UTC 2026: 
+ exercises.c | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:46:9: error: unused variable ‘dato’ [-Werror=unused-variable]
+   46 |    int* dato = (int*)malloc(sizeof(int));
+      |         ^~~~
+exercises.c: In function ‘copia_pila’:
+exercises.c:84:22: error: implicit declaration of function ‘creatStack’; did you mean ‘create_stack’? [-Wimplicit-function-declaration]
+   84 |    Stack *auxiliar = creatStack(); //creo la pila auxiliar
+      |                      ^~~~~~~~~~
+      |                      create_stack
+exercises.c:84:22: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:90:42: error: expected statement before ‘)’ token
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:90:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:90:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+cc1: all warnings being treated as errors
+fb83f4d
+Fri Mar 20 06:03:19 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:46:9: error: unused variable ‘dato’ [-Werror=unused-variable]
+   46 |    int* dato = (int*)malloc(sizeof(int));
+      |         ^~~~
+exercises.c: In function ‘copia_pila’:
+exercises.c:84:22: error: implicit declaration of function ‘creat_stack’; did you mean ‘create_stack’? [-Wimplicit-function-declaration]
+   84 |    Stack *auxiliar = creat_stack(); //creo la pila auxiliar
+      |                      ^~~~~~~~~~~
+      |                      create_stack
+exercises.c:84:22: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:87:36: error: expected statement before ‘)’ token
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |                                    ^
+exercises.c:87:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |    ^~~~~
+exercises.c:87:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |                                     ^
+exercises.c:90:42: error: expected statement before ‘)’ token
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:90:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:90:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+cc1: all warnings being treated as errors
+451fc1e
+Fri Mar 20 06:05:40 PM UTC 2026: 
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:46:9: error: unused variable ‘dato’ [-Werror=unused-variable]
+   46 |    int* dato = (int*)malloc(sizeof(int));
+      |         ^~~~
+exercises.c: In function ‘copia_pila’:
+exercises.c:84:22: error: implicit declaration of function ‘creat_stack’; did you mean ‘create_stack’? [-Wimplicit-function-declaration]
+   84 |    Stack *auxiliar = creat_stack(); //creo la pila auxiliar
+      |                      ^~~~~~~~~~~
+      |                      create_stack
+exercises.c:84:22: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:87:36: error: expected statement before ‘)’ token
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |                                    ^
+exercises.c:87:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |    ^~~~~
+exercises.c:87:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   87 |    while ((dato = pop(P1)) != NULL)){
+      |                                     ^
+exercises.c:90:42: error: expected statement before ‘)’ token
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:90:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:90:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   90 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+cc1: all warnings being treated as errors
+ee9fd0f
+Fri Mar 20 06:06:27 PM UTC 2026: 
+ exercises.c | 5 -----
+ 1 file changed, 5 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:45:11: error: ‘L’ undeclared (first use in this function)
+   45 |    return L;
+      |           ^
+exercises.c:45:11: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c: In function ‘copia_pila’:
+exercises.c:79:22: error: implicit declaration of function ‘creat_stack’; did you mean ‘create_stack’? [-Wimplicit-function-declaration]
+   79 |    Stack *auxiliar = creat_stack(); //creo la pila auxiliar
+      |                      ^~~~~~~~~~~
+      |                      create_stack
+exercises.c:79:22: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:82:36: error: expected statement before ‘)’ token
+   82 |    while ((dato = pop(P1)) != NULL)){
+      |                                    ^
+exercises.c:82:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   82 |    while ((dato = pop(P1)) != NULL)){
+      |    ^~~~~
+exercises.c:82:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   82 |    while ((dato = pop(P1)) != NULL)){
+      |                                     ^
+exercises.c:85:42: error: expected statement before ‘)’ token
+   85 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:85:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   85 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:85:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   85 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+exercises.c: In function ‘crea_lista’:
+exercises.c:46:1: error: control reaches end of non-void function [-Werror=return-type]
+   46 | }
+      | ^
+cc1: all warnings being treated as errors
+dab87af
+Fri Mar 20 06:07:34 PM UTC 2026: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:80:22: error: implicit declaration of function ‘creat_stack’; did you mean ‘create_stack’? [-Wimplicit-function-declaration]
+   80 |    Stack *auxiliar = creat_stack(); //creo la pila auxiliar
+      |                      ^~~~~~~~~~~
+      |                      create_stack
+exercises.c:80:22: error: initialization of ‘Stack *’ {aka ‘List *’} from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:83:36: error: expected statement before ‘)’ token
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |                                    ^
+exercises.c:83:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |    ^~~~~
+exercises.c:83:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |                                     ^
+exercises.c:86:42: error: expected statement before ‘)’ token
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:86:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:86:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+cc1: all warnings being treated as errors
+0e6a919
+Fri Mar 20 06:08:04 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:83:36: error: expected statement before ‘)’ token
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |                                    ^
+exercises.c:83:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |    ^~~~~
+exercises.c:83:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   83 |    while ((dato = pop(P1)) != NULL)){
+      |                                     ^
+exercises.c:86:42: error: expected statement before ‘)’ token
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                          ^
+exercises.c:86:4: error: this ‘while’ clause does not guard... [-Werror=misleading-indentation]
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |    ^~~~~
+exercises.c:86:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘while’
+   86 |    while ((dato = pop(auxiliar)) != NULL)){
+      |                                           ^
+cc1: all warnings being treated as errors
+891f031
+Fri Mar 20 06:08:43 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|4
+total_score: 10/70
+0353fa1
+Fri Mar 20 06:37:40 PM UTC 2026: 
+ exercises.c | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+ tests:  1|4
+total_score: 10/70
+80db8c9
+Fri Mar 20 07:33:10 PM UTC 2026: 
+ exercises.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:48:11: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   48 |       num = i + 1;
+      |           ^
+exercises.c:49:7: error: implicit declaration of function ‘push_back’; did you mean ‘pushBack’? [-Wimplicit-function-declaration]
+   49 |       push_back(L , num);
+      |       ^~~~~~~~~
+      |       pushBack
+e19cdbe
+Fri Mar 20 07:35:44 PM UTC 2026: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:46:24: error: expected expression before ‘=’ token
+   46 |    for(int i = 1 ; i < =10 ; i ++){
+      |                        ^
+exercises.c:48:8: error: ‘num’ undeclared (first use in this function)
+   48 |       *num = i;
+      |        ^~~
+exercises.c:48:8: note: each undeclared identifier is reported only once for each function it appears in
+a23450d
+Fri Mar 20 07:37:01 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:18: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+   47 |       int *num = (int)malloc(sizeof(int));
+      |                  ^
+exercises.c:47:18: error: initialization of ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+cc1: all warnings being treated as errors
+9a42949
+Fri Mar 20 07:37:56 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:18: error: expected expression before ‘int’
+   47 |       int *num = int(malloc(sizeof(int)));
+      |                  ^~~
+203eae6
+Fri Mar 20 07:39:46 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:20: error: expected expression before ‘int’
+   47 |       int *num = (*int)malloc(sizeof(int));
+      |                    ^~~
+exercises.c:47:24: error: expected ‘,’ or ‘;’ before ‘malloc’
+   47 |       int *num = (*int)malloc(sizeof(int));
+      |                        ^~~~~~
+31e8bb4
+Fri Mar 20 07:41:19 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:47:19: error: cast from pointer to integer of different size [-Werror=pointer-to-int-cast]
+   47 |       int *num = *(int)malloc(sizeof(int));
+      |                   ^
+exercises.c:47:18: error: invalid type argument of unary ‘*’ (have ‘int’)
+   47 |       int *num = *(int)malloc(sizeof(int));
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+5ecec0a
+Fri Mar 20 07:43:56 PM UTC 2026: 
+ exercises.c | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+ tests:  2|3
+total_score: 20/70
+95fdffe
+Sat Mar 21 07:45:51 PM UTC 2026: 
+ exercises.c | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘sumaLista’:
+exercises.c:66:16: error: expected expression before ‘int’
+   66 |       dato = (*int) next(L);
+      |                ^~~
+exercises.c:66:20: error: expected ‘;’ before ‘next’
+   66 |       dato = (*int) next(L);
+      |                    ^~~~~
+      |                    ;
+exercises.c: At top level:
+exercises.c:69:4: error: expected identifier or ‘(’ before ‘return’
+   69 |    return suma;
+      |    ^~~~~~
+exercises.c:70:1: error: expected identifier or ‘(’ before ‘}’ token
+   70 | }
+      | ^
+exercises.c: In function ‘sumaLista’:
+exercises.c:68:4: error: control reaches end of non-void function [-Werror=return-type]
+   68 |    }
+      |    ^
+cc1: all warnings being treated as errors
+3739dc2
+Sat Mar 21 07:46:53 PM UTC 2026: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  3|2
+total_score: 30/70
+f3060e8
+Sat Mar 21 07:55:33 PM UTC 2026: 
+ exercises.c | 14 +++++++++++---
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+ tests:  4|1
+total_score: 50/70
+49c172f
+Sat Mar 21 08:17:09 PM UTC 2026: 
+ exercises.c | 24 +++++++++++++++++++++++-
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:129:15: error: passing argument 1 of ‘push’ makes pointer from integer without a cast [-Wint-conversion]
+  129 |          push(c, &cadena[i]) // aqui lo insertamos a la pila.
+      |               ^
+      |               |
+      |               char
+In file included from exercises.c:7:
+stack.h:11:18: note: expected ‘Stack *’ {aka ‘List *’} but argument is of type ‘char’
+   11 | void push(Stack *stack, void *data) { pushFront(stack, data); }
+      |           ~~~~~~~^~~~~
+exercises.c:129:29: error: expected ‘;’ before ‘}’ token
+  129 |          push(c, &cadena[i]) // aqui lo insertamos a la pila.
+      |                             ^
+      |                             ;
+  130 | 
+  131 |       }
+      |       ~                      
+exercises.c:137:23: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  137 |          if (c == ')' && *tope == '('|| c == ']' && *tope == ']'|| c == '}' && *tope == '{'{
+      |              ~~~~~~~~~^~~~~~~~~~~~~~~
+exercises.c:137:77: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  137 |          if (c == ')' && *tope == '('|| c == ']' && *tope == ']'|| c == '}' && *tope == '{'{
+      |                                                                    ~~~~~~~~~^~~~~~~~~~~~~~~
+exercises.c:137:92: error: expected ‘)’ before ‘{’ token
+  137 |          if (c == ')' && *tope == '('|| c == ']' && *tope == ']'|| c == '}' && *tope == '{'{
+      |             ~                                                                              ^
+      |                                                                                            )
+exercises.c:141:7: error: expected expression before ‘}’ token
+  141 |       }
+      |       ^
+cc1: all warnings being treated as errors
+a788037
+Sat Mar 21 08:18:53 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:129:15: error: passing argument 1 of ‘push’ makes pointer from integer without a cast [-Wint-conversion]
+  129 |          push(c, &cadena[i]) // aqui lo insertamos a la pila.
+      |               ^
+      |               |
+      |               char
+In file included from exercises.c:7:
+stack.h:11:18: note: expected ‘Stack *’ {aka ‘List *’} but argument is of type ‘char’
+   11 | void push(Stack *stack, void *data) { pushFront(stack, data); }
+      |           ~~~~~~~^~~~~
+exercises.c:129:29: error: expected ‘;’ before ‘}’ token
+  129 |          push(c, &cadena[i]) // aqui lo insertamos a la pila.
+      |                             ^
+      |                             ;
+  130 | 
+  131 |       }
+      |       ~                      
+b5b7b0a
+Sat Mar 21 08:19:40 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:129:15: error: passing argument 1 of ‘push’ makes pointer from integer without a cast [-Wint-conversion]
+  129 |          push(c, &cadena[i]); // aqui lo insertamos a la pila.
+      |               ^
+      |               |
+      |               char
+In file included from exercises.c:7:
+stack.h:11:18: note: expected ‘Stack *’ {aka ‘List *’} but argument is of type ‘char’
+   11 | void push(Stack *stack, void *data) { pushFront(stack, data); }
+      |           ~~~~~~~^~~~~
+f21fcad
+Sat Mar 21 08:20:40 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|1
+total_score: 60/70
+384f0ff
+Sat Mar 21 08:24:29 PM UTC 2026: 
+ exercises.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  9|0
+total_score: 70/70
+07cfefe
